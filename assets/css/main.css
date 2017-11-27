@@ -1,0 +1,115 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+	margin-top:30px;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+}
+
+header{
+	background-color: #625E5A;
+	height: 80px;
+}
+
+.izquierda{
+	float: left;
+}
+
+.derecha{
+	float: right;
+	margin-right: 10px;
+}
+
+.imagenes{
+	border-radius: 300px;
+}
+
+.image-wonder{
+	background-image: url(../../assets/img/header.jpg);
+	height: 500px;
+	background-size: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+}
+
+.title-principal, .paragraph-principal{
+	text-align: center;
+	color: white;
+	font-size: 200%;
+}
+
+h2{
+	margin-top: 200px;
+}
+
+.text-rock{
+	margin-top: 20px;
+}
+
+h1{
+	margin-top: 100px;
+}
+
+/*header2*/
+.start2{
+	display: none;
+}
+
+.start1{
+	display: block;
+}
+
+/*menu*/
+
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+	background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+	display:block;
+}
+
+/*footer*/
+
+footer{
+	background-color: #625E5A;
+	height: 50px;
+}
