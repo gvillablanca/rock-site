@@ -1,6 +1,7 @@
 body{
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Raleway', sans-serif;
 }
 
 ul{
@@ -112,4 +113,6 @@ h1{
 footer{
 	background-color: #625E5A;
 	height: 50px;
+	color: white;
+	text-align: center;
 }
